@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import { Button } from './stories/Button';
+import { Button } from "./components/Button";
 
 function App() {
   return (
-    <div className="App">
-        <Button label={"Button-yoyo"}/>
+    <div className="flex justify-center items-center pt-20">
+      <Button label="Buttonzz" backgroundColor="primary" />
     </div>
   );
 }
